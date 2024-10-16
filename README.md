@@ -1,6 +1,6 @@
 # Macro-Recorder
 Uhh free project to record and then replay key strokes (yes that includes mouse movement and clicks) in an open source python script (report issues if you want i might fix them probably not as i made this as a time saver)
-Steps to use this:
+**Steps to use this:**
 1. Install python (if already installed you're good):
 ```https://www.python.org/```
 2. Install Required Libraries:
@@ -9,7 +9,7 @@ pickle and tkinter are pre installed in python (i think)
 3. Run the project
 python macro_recorder.py
 
-How to use each button (no way in fucking hell i'm adding gui dyi job for you to do :D)
+**How to use each button (no way in fucking hell i'm adding gui dyi job for you to do :D)**
 Start Recording
 
     What it does: Begins recording your mouse movements and keyboard presses after a short wait time (if you set one).
@@ -66,4 +66,4 @@ Unhide Actions
 
     What it does: Shows hidden actions again so you can see them.
 
-Thanks to Chatgpt for making my code not look like it came straight out of shreks insides it made it actually readable and probably fixed some errors and changed names of my lazy variables so it's easy to understand.
+**Thanks to Chatgpt for making my code not look like it came straight out of shreks insides it made it actually readable and probably fixed some errors and changed names of my lazy variables so it's easy to understand.**
