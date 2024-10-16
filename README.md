@@ -7,7 +7,7 @@ Uhh free project to record and then replay key strokes (yes that includes mouse 
 ```pip install pynput```
 pickle and tkinter are pre installed in python (i think)
 3. Run the project
-python macro_recorder.py
+```python macro_recorder.py```
 
 **How to use each button (no way in fucking hell i'm adding gui dyi job for you to do :D)**
 Start Recording
@@ -16,11 +16,11 @@ Start Recording
 
 Stop Recording
 
-    What it does: Stops the recording process whenever you're ready.
+    What it does: Stops the recording process.
 
 Replay Actions
 
-    What it does: Plays back the actions you recorded. You can choose how many times to repeat the playback.
+    What it does: Plays back the actions you recorded. You can choose how many times to repeat the recording witht eh loop count below.
 
 Set Loop Count
 
@@ -28,7 +28,7 @@ Set Loop Count
 
 Set Start Delay (ms)
 
-    What it does: Allows you to set a wait time before starting the recording. You enter this time in milliseconds (thousandths of a second).
+    What it does: Allows you to set a wait time before starting the recording. You enter this time in milliseconds.
 
 Set Replay Delay (ms)
 
@@ -52,11 +52,11 @@ Delete Action
 
 Duplicate Action
 
-    What it does: Creates a copy of a selected action (this feature needs to be added based on what you need).
+    What it does: Creates a copy of a selected action.
 
 Add Custom Action
 
-    What it does: Lets you add a new action manually (this feature needs to be added based on what you need).
+    What it does: Lets you add a new action manually (probably the most buggy feature in the entire code and NO i'm not gonna fix it).
 
 Hide Actions
 
@@ -64,6 +64,6 @@ Hide Actions
 
 Unhide Actions
 
-    What it does: Shows hidden actions again so you can see them.
+    What it does: Shows hidden actions again so you can see them duh.
 
 **Thanks to Chatgpt for making my code not look like it came straight out of shreks insides it made it actually readable and probably fixed some errors and changed names of my lazy variables so it's easy to understand.**
